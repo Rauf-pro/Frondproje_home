@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +12,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -79,7 +80,7 @@
             </div>
         </div>
 
-        <!-- Main -->
+
         <div class="main-banner">
             <div class="container-fluid">
                 <div class="row">
@@ -120,44 +121,57 @@
             <div class="figure3">
                 <img src="img/home/Shape/21.png" alt="">
             </div>
+            <div class="figure4">
+                <img src="img/home/Shape/23.png" alt="">
+            </div>
 
 
         </div>
     </header>
+    <!-- Main area -->
     <main>
         <section id="features-card">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-sm-6">
-                        <div class="single-feautures-card">
-                            <i class="far fa-comments"></i>
-                            <h3><a href="">IT Consultancy</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
-                                magna aliqua.</p>
+                        <div data-aos="fade-up">
+                            <div class="single-feautures-card">
+                                <i class="far fa-comments"></i>
+                                <h3><a href="">IT Consultancy</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+                                    magna aliqua.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div data-aos="fade-up">
+                            <div class="single-feautures-card">
+                                <i class="fas fa-laptop"></i>
+                                <h3><a href="">Web Development</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+                                    magna aliqua.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
-                        <div class="single-feautures-card">
-                            <i class="fas fa-laptop"></i>
-                            <h3><a href="">Web Development</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
-                                magna aliqua.</p>
+                        <div data-aos="fade-up">
+                            <div class="single-feautures-card">
+                                <i class="fas fa-check-circle"></i>
+                                <h3><a href="">IT Solutions</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+                                    magna aliqua.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
-                        <div class="single-feautures-card">
-                            <i class="fas fa-check-circle"></i>
-                            <h3><a href="">IT Solutions</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
-                                magna aliqua.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-feautures-card">
-                            <i class="fas fa-bullhorn"></i>
-                            <h3><a href="">Digital Marketing</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
-                                magna aliqua.</p>
+                        <div data-aos="fade-up">
+                            <div class="single-feautures-card">
+                                <i class="fas fa-bullhorn"></i>
+                                <h3><a href="">Digital Marketing</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+                                    magna aliqua.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -218,11 +232,15 @@
                             </a>
                         </div>
                     </div>
+                    
                     <div class="services-image">
+                        <div data-aos="fade-left">
                         <div class="image">
                             <img src="img/home/service1.png" alt="">
                         </div>
                     </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </section>
@@ -230,9 +248,11 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="services-image">
+                        <div data-aos="fade-right">
                         <div class="image">
                             <img src="img/home/service2.png" alt="">
                         </div>
+                    </div>
                     </div>
                     <div class="services-content">
                         <div class="left-content">
@@ -321,12 +341,12 @@
                     </div>
                 </div>
                 <div class="count-inner">
-                    <div class="row">
+                    <div class="row counter-items" id="unique-id">
                         <div class="col-lg-3 col-sm-6">
-                            <div class="single-count">
+                            <div class="single-count item" id="myTargetElement">
                                 <span class="iconify general-icon" data-icon="gg:play-list-check"></span>
                                 <h3>
-                                    <span class="counter">850</span>
+                                    <span class=" js-count-up" data-value="850"></span>
                                     <span>+</span>
 
                                 </h3>
@@ -334,10 +354,10 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-6">
-                            <div class="single-count">
+                            <div class="single-count item" id="myTargetElement">
                                 <span class="iconify general-icon" data-icon="bi:emoji-smile"></span>
                                 <h3>
-                                    <span class="counter">850</span>
+                                    <span class=" js-count-up" data-value="850"></span>
                                     <span>+</span>
 
                                 </h3>
@@ -345,10 +365,10 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-6">
-                            <div class="single-count">
+                            <div class="single-count item" id="myTargetElement">
                                 <span class="iconify general-icon" data-icon="bx:bx-grid-small"></span>
                                 <h3>
-                                    <span class="counter">850</span>
+                                    <span class=" js-count-up" data-value="120"></span>
                                     <span>+</span>
 
                                 </h3>
@@ -356,10 +376,10 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-6">
-                            <div class="single-count">
+                            <div class="single-count item" id="myTargetElement">
                                 <span class="iconify general-icon" data-icon="bx:bxs-award"></span>
                                 <h3>
-                                    <span class="counter">850</span>
+                                    <span class="js-count-up" data-value="50"></span>
                                     <span>+</span>
 
                                 </h3>
@@ -522,8 +542,8 @@
                     <h2>Choose The Pricing Plan</h2>
                 </div>
                 <div class="pricing-list-btn">
-                            <a href="" class="monthly"><i class="fas fa-calendar-check"></i> Monthly</a>
-                            <a href="" class="yearly"><i class="fas fa-calendar-check"></i> Yearly</a>
+                    <a href="" class="monthly"><i class="fas fa-calendar-check"></i> Monthly</a>
+                    <a href="" class="yearly"><i class="fas fa-calendar-check"></i> Yearly</a>
                 </div>
                 <div class="content_pricing">
                     <div class="row">
@@ -536,17 +556,21 @@
                                     <sup>$</sup>0 <sub>/ monthly</sub>
                                 </div>
                                 <ul>
-                                    <li><i class="fas fa-check-circle"></i>Up to 3 chat operators <span><i class="fas fa-info-circle"></i></span></li>
+                                    <li><i class="fas fa-check-circle"></i>Up to 3 chat operators <span><i
+                                                class="fas fa-info-circle"></i></span></li>
                                     <li><i class="fas fa-check-circle"></i>100 ChatBot Triggers</li>
                                     <li><i class="fas fa-check-circle"></i>24/7 Live Chat</li>
-                                    <li><i class="fas fa-check-circle"></i>Email Integration <span><i class="fas fa-info-circle"></i></span></li>
+                                    <li><i class="fas fa-check-circle"></i>Email Integration <span><i
+                                                class="fas fa-info-circle"></i></span></li>
                                     <li><i class="fas fa-check-circle"></i>Messenger Integration</li>
                                     <li><i class="fas fa-check-circle"></i>Visitor Info</li>
                                     <li><i class="fas fa-check-circle"></i>Mobile + Desktop Apps</li>
-                                    <li><i class="fas fa-check-circle"></i>Quick Responses <span><i class="fas fa-info-circle"></i></span></li>
+                                    <li><i class="fas fa-check-circle"></i>Quick Responses <span><i
+                                                class="fas fa-info-circle"></i></span></li>
                                     <li><i class="fas fa-check-circle"></i>Drag & Drop Widgets</li>
-                                    <li><i class="fas fa-check-circle"></i>Visitor Notes <span><i class="fas fa-info-circle"></i></span></li>
-                                    <li><i class="fas fa-check-circle"></i>Google Analytics</li>  
+                                    <li><i class="fas fa-check-circle"></i>Visitor Notes <span><i
+                                                class="fas fa-info-circle"></i></span></li>
+                                    <li><i class="fas fa-check-circle"></i>Google Analytics</li>
                                 </ul>
                                 <div class="btn-box">
                                     <a href="" class="btn-1"><i class="fab fa-hotjar"></i> Try It Free Now</a>
@@ -562,17 +586,21 @@
                                     <sup>$</sup>49 <sub>/ monthly</sub>
                                 </div>
                                 <ul>
-                                    <li><i class="fas fa-check-circle"></i>Up to 4 chat operators <span><i class="fas fa-info-circle"></i></span></li>
+                                    <li><i class="fas fa-check-circle"></i>Up to 4 chat operators <span><i
+                                                class="fas fa-info-circle"></i></span></li>
                                     <li><i class="fas fa-check-circle"></i>100 ChatBot Triggers</li>
                                     <li><i class="fas fa-check-circle"></i>24/7 Live Chat</li>
-                                    <li><i class="fas fa-check-circle"></i>Email Integration <span><i class="fas fa-info-circle"></i></span></li>
+                                    <li><i class="fas fa-check-circle"></i>Email Integration <span><i
+                                                class="fas fa-info-circle"></i></span></li>
                                     <li><i class="fas fa-check-circle"></i>Messenger Integration</li>
                                     <li><i class="fas fa-check-circle"></i>Visitor Info</li>
                                     <li><i class="fas fa-check-circle"></i>Mobile + Desktop Apps</li>
-                                    <li><i class="fas fa-check-circle"></i>Quick Responses <span><i class="fas fa-info-circle"></i></span></li>
+                                    <li><i class="fas fa-check-circle"></i>Quick Responses <span><i
+                                                class="fas fa-info-circle"></i></span></li>
                                     <li><i class="fas fa-check-circle"></i>Drag & Drop Widgets</li>
-                                    <li><i class="fas fa-check-circle"></i>Visitor Notes <span><i class="fas fa-info-circle"></i></span></li>
-                                    <li><i class="fas fa-check-circle"></i>Google Analytics</li>  
+                                    <li><i class="fas fa-check-circle"></i>Visitor Notes <span><i
+                                                class="fas fa-info-circle"></i></span></li>
+                                    <li><i class="fas fa-check-circle"></i>Google Analytics</li>
                                 </ul>
                                 <div class="btn-box">
                                     <a href="" class="btn-2"><i class="fab fa-hotjar"></i> Try It Free Now</a>
@@ -588,17 +616,21 @@
                                     <sup>$</sup>79 <sub>/ monthly</sub>
                                 </div>
                                 <ul>
-                                    <li><i class="fas fa-check-circle"></i>Up to 5 chat operators <span><i class="fas fa-info-circle"></i></span></li>
+                                    <li><i class="fas fa-check-circle"></i>Up to 5 chat operators <span><i
+                                                class="fas fa-info-circle"></i></span></li>
                                     <li><i class="fas fa-check-circle"></i>100 ChatBot Triggers</li>
                                     <li><i class="fas fa-check-circle"></i>24/7 Live Chat</li>
-                                    <li><i class="fas fa-check-circle"></i>Email Integration <span><i class="fas fa-info-circle"></i></span></li>
+                                    <li><i class="fas fa-check-circle"></i>Email Integration <span><i
+                                                class="fas fa-info-circle"></i></span></li>
                                     <li><i class="fas fa-check-circle"></i>Messenger Integration</li>
                                     <li><i class="fas fa-check-circle"></i>Visitor Info</li>
                                     <li><i class="fas fa-check-circle"></i>Mobile + Desktop Apps</li>
-                                    <li><i class="fas fa-check-circle"></i>Quick Responses <span><i class="fas fa-info-circle"></i></span></li>
+                                    <li><i class="fas fa-check-circle"></i>Quick Responses <span><i
+                                                class="fas fa-info-circle"></i></span></li>
                                     <li><i class="fas fa-check-circle"></i>Drag & Drop Widgets</li>
-                                    <li><i class="fas fa-check-circle"></i>Visitor Notes <span><i class="fas fa-info-circle"></i></span></li>
-                                    <li><i class="fas fa-check-circle"></i>Google Analytics</li>  
+                                    <li><i class="fas fa-check-circle"></i>Visitor Notes <span><i
+                                                class="fas fa-info-circle"></i></span></li>
+                                    <li><i class="fas fa-check-circle"></i>Google Analytics</li>
                                 </ul>
                                 <div class="btn-box">
                                     <a href="" class="btn-3"><i class="fab fa-hotjar"></i> Try It Free Now</a>
@@ -610,14 +642,176 @@
             </div>
 
         </section>
-        
-        
+        <section class="team-sector">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Meet Our Experts Always Ready To Help You</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-box">
+                            <div class="image">
+                                <img src="img/home/1.jpg" alt="">
+                                <ul class="social">
+                                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="content">
+                                <h3>Alex Maxwel</h3>
+                                <span>CEO & Founder</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-box">
+                            <div class="image">
+                                <img src="img/home/2.jpg" alt="">
+                                <ul class="social">
+                                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="content">
+                                <h3>Sarah Taylor</h3>
+                                <span>UX/UI Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-box">
+                            <div class="image">
+                                <img src="img/home/3.jpg" alt="">
+                                <ul class="social">
+                                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="content">
+                                <h3>Lee Munroe</h3>
+                                <span>Web Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-box">
+                            <div class="image">
+                                <img src="img/home/4.jpg" alt="">
+                                <ul class="social">
+                                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="content">
+                                <h3>Calvin Klein</h3>
+                                <span>Support</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clients-loving">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Loving Clients</h2>
+                </div>
+                <div class="clients-logo">
+                    <div class="single-clients">
+                        <a href=""><img src="img/home/1 (1).png" alt=""></a>
+                    </div>
+                    <div class="single-clients">
+                        <a href=""><img src="img/home/2 (1).png" alt=""></a>
+                    </div>
+                    <div class="single-clients">
+                        <a href=""><img src="img/home/3 (1).png" alt=""></a>
+                    </div>
+                    <div class="single-clients">
+                        <a href=""><img src="img/home/4 (1).png" alt=""></a>
+                    </div>
+                    <div class="single-clients">
+                        <a href=""><img src="img/home/5 (1).png" alt=""></a>
+                    </div>
+                    <div class="single-clients">
+                        <a href=""><img src="img/home/6 (1).png" alt=""></a>
+                    </div>
+                    <div class="single-clients">
+                        <a href=""><img src="img/home/7 (1).png" alt=""></a>
+                    </div>
+                    <div class="single-clients">
+                        <a href=""><img src="img/home/8 (1).png" alt=""></a>
+                    </div>
+                    <div class="single-clients">
+                        <a href=""><img src="img/home/9 (1).png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="dropdown-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12">
+                        <div class="accardion-menu">
+                            <h2>Get to know about <span>Strax</span></h2>
+
+                            <button class="accordion">What access do I have on the free plan?</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+
+                            <button class="accordion">What access do I have on a free trial?</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+
+                            <button class="accordion">Does the price go up as my team gets larger?</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">How can I cancel/pause my subscription?</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">Can I pay via an invoice?</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <div class="image">
+                            <img src="img/home/faq-img1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
     </main>
 
-
-
-
-
+    
 
     <script src="https://kit.fontawesome.com/6ff3f42b45.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
@@ -625,7 +819,8 @@
     <script>
         AOS.init();
     </script>
-    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.7/countUp.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/owl.carousel.min.js"></script>
 

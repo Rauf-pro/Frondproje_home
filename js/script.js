@@ -37,20 +37,24 @@ window.addEventListener("scroll", function () {
 // }
 // };
 
+// $(document).ready(function(){
+//   $(".owl-carousel").owlCarousel();
+// });
 
-
-
-
-
-let owl = $('.owl-carousel');
+var owl = $('.owl-carousel');
 owl.owlCarousel({
-    items:2,
+    items:4,
     loop:true,
     margin:30,
     autoplay:true,
-    autoplayTimeout:2000,
+    autoplayTimeout:3000,
     autoplayHoverPause:true
+    
 });
+
+
+
+
 
 
 var acc = document.getElementsByClassName("accordion");
@@ -73,6 +77,17 @@ var options = {
     useGrouping: true, 
     
 };
+
+$('.Count').each(function () {
+  var $this = $(this);
+  jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
+      duration: 1000,
+      easing: 'swing',
+      step: function () {
+          $this.text(Math.ceil(this.Counter));
+      }
+  });
+});
 
 
 

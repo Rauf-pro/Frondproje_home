@@ -43,7 +43,7 @@ window.addEventListener("scroll", function () {
 
 var owl = $('.owl-carousel');
 owl.owlCarousel({
-    items:4,
+    items:2,
     loop:true,
     margin:30,
     autoplay:true,

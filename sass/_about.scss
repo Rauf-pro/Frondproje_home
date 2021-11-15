@@ -180,12 +180,369 @@ main {
             }
         }
     }
-    .team-sector{
-        .section-title{}
+
+    .download-area {
+        background-color: #f4f5fe;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-image: url(../img/about/white-bg.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+        .app-image {
+            text-align: center;
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        .app-content {
+            .sub-title {
+                display: inline-block;
+                background-color: #13c4a1;
+                color: #fff;
+                padding: 5px 25px;
+                border-radius: 35px;
+                margin-bottom: 15px;
+                font-size: 14px;
+                font-weight: 400;
+            }
+
+            h2 {
+                font-size: 40px;
+                font-weight: 500;
+            }
+
+            .btn-box {
+                margin-top: 30px;
+                overflow: hidden;
+
+                .play-store {
+                    text-decoration: none;
+                    display: inline-block;
+                    background-color: #fff;
+                    padding: 12px 25px 12px 74px;
+                    border-radius: 5px;
+                    position: relative;
+                    z-index: 1;
+                    color: #666786;
+                    font-size: 13px;
+                    font-weight: 400;
+                    transition: .5s;
+
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                        position: absolute;
+                        left: 25px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+
+                    span {
+                        display: block;
+                        color: #080a3c;
+                        font-size: 20px;
+                        font-weight: 600;
+
+
+                    }
+
+
+                }
+
+                .apple-store {
+                    cursor: pointer;
+                    text-decoration: none;
+                    margin-right: 8px;
+                    display: inline-block;
+                    background-color: #fff;
+                    padding: 12px 25px 12px 74px;
+                    border-radius: 5px;
+                    position: relative;
+                    z-index: 1;
+                    color: #666786;
+                    font-size: 13px;
+                    font-weight: 400;
+                    transition: .5s;
+
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                        position: absolute;
+                        left: 25px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+
+
+
+                    span {
+                        display: block;
+                        color: #080a3c;
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+
+
+                }
+
+
+            }
+        }
     }
-    .single-box{
-        .image{
-            img{}
+
+    .feedback-carousel {
+        padding-top: 100px;
+        padding-bottom: 70px;
+
+        .section-title {
+            text-align: center;
+            max-width: 565px;
+            text-transform: capitalize;
+            margin-left: auto;
+            margin-bottom: 60px;
+            margin-right: auto;
+
+            h2 {
+                margin-bottom: 0;
+                font-size: 40px;
+                font-weight: 600;
+
+                span {
+                    display: inline-block;
+                    color: #ff612f;
+                }
+            }
+        }
+
+        .owl-carousel {
+            overflow: hidden;
+
+            .photo-content {
+                margin-bottom: 40px;
+                position: relative;
+                margin-top: 95px;
+
+                img {
+
+                    max-width: 100%;
+                    height: auto;
+                    z-index: 2;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    display: inline-block !important;
+                    width: auto !important;
+                    vertical-align: middle;
+                }
+
+                .content {
+                    position: relative;
+                    z-index: 1;
+                    overflow: hidden;
+                    margin-left: 45px;
+                    background-color: #fff;
+                    padding: 30px 55px 30px 160px;
+
+                    p {
+                        color: #4a6f8a;
+                        line-height: 1.8;
+                        font-size: 15px;
+                        margin-bottom: 0;
+                    }
+
+                    .rating {
+                        margin-top: 13px;
+                        margin-bottom: 15px;
+
+                        i {
+                            font-size: 14px;
+                            display: inline-block;
+                            margin-right: -1px;
+                            color: #ff612f;
+                        }
+                    }
+
+                    .client-info {
+                        h3 {
+                            margin-bottom: 0;
+                            font-size: 18px;
+                            font-weight: 500;
+
+                        }
+
+                        span {
+                            display: block;
+                            color: #13c4a1;
+                            font-size: 14px;
+                            margin-top: 6 px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .trial-area {
+        background-color: #f4f5fe;
+        position: relative;
+        z-index: 1;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .trial-content {
+            text-align: center;
+            max-width: 695px;
+            margin-left: auto;
+            margin-right: auto;
+
+            h2 {
+                font-size: 45px;
+                font-weight: 600;
+                line-height: 1.2;
+            }
+
+            p {
+                margin-top: 20px;
+                color: #4a6f8a;
+                margin-bottom: 12px;
+                line-height: 1.8;
+                font-size: 15px;
+            }
+
+            .default-btn {
+                text-decoration: none;
+                border: none;
+                position: relative;
+                display: inline-block;
+                text-align: center;
+                overflow: hidden;
+                z-index: 1;
+                color: #fff;
+                background-color: #ff612f;
+                -webkit-transition: .5s;
+                transition: .5s;
+                border-radius: 5px;
+                font-weight: 500;
+                font-size: 15px;
+                padding-left: 50px;
+                padding-right: 25px;
+                padding-top: 13px;
+                padding-bottom: 13px;
+            }
+
+        }
+
+        .figure10 {
+            position: absolute;
+            right: 30%;
+            bottom: 25%;
+            z-index: -1;
+
+            img {
+                max-width: 100%;
+                height: auto;
+                animation-name: rotateMe;
+                animation-duration: 20s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+
+            }
+
+            @keyframes rotateMe {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        }
+
+        .figure11 {
+            position: absolute;
+            left: 25%;
+            bottom: 27%;
+            z-index: -1;
+
+            img {
+                max-width: 100%;
+                height: auto;
+                animation: moveBounce 5s linear infinite;
+            }
+
+            @keyframes moveBounce {
+                0% {
+                    transform: translateY(0px);
+                }
+
+                50% {
+                    transform: translateY(20px);
+                }
+
+                100% {
+                    transform: translateY(0px);
+                }
+
+            }
+        }
+
+        .figure12 {
+            position: absolute;
+            left: 10%;
+            bottom: 50%;
+            z-index: -1;
+
+            img {
+                max-width: 100%;
+                height: auto;
+                animation-name: rotateMe;
+                animation-duration: 20s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+
+            @keyframes rotateMe {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
+
+            }
+        }
+
+        .figure13 {
+            position: absolute;
+            right: 18%;
+            bottom: 60%;
+            z-index: -1;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            animation-name: rotateMe;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        @keyframes rotateMe {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
         }
     }
 

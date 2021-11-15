@@ -27,58 +27,33 @@
                 </div>
             </div>
         </div>
-        <div class="navbar-are">
-            <div class="responsive-nav">
-                <div class="container">
-                    <div class="responsive-menu">
-                        <div class="logo">
-                            <a href=""><img src="img/home/logo.png" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="strax-navbar">
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark ">
             <div class="container">
-                <div class="row">
-                    <div class="navbar-ex">
-                        <a href="">
-                            <img src="img/home/logo.png" alt="">
-                        </a>
-                        <div class="navbar-collapse">
-                            <ul>
-                                <li><a href="">Home
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a></li>
+                 <a class="navbar-brand logo" href="#"><img src="img/home/logo.png" alt=""></a>
+                 <div class="nav_list">
+                     <ul>
+                         <li><a href="">Home <i class="fas fa-chevron-down"></i></a></li>
+                         <li><a href="">About</a></li>
+                         <li><a href="">Pricing</a></li>
+                         <li><a href="">Pages <i class="fas fa-chevron-down"></i></a></li>
+                         <li><a href="">Blog <i class="fas fa-chevron-down"></i></a></li>
+                         <li><a href="">Contact</a></li>
+                     </ul>
+                 </div>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+             <div class="collapse navbar-collapse" id="main_nav">
+               <ul class="navbar-nav ms-auto btns">
+                   <li class="nav-item btn-hot"><a class="nav-link hot" href="#"><i class="fab fa-hotjar"></i> Get Started</a></li>
+                   <li class="nav-item btn-login"><a class="nav-link login" href="#"><i class="fas fa-sign-in-alt"></i> Log In </a></li>
+               </ul>
+             </div> <!-- navbar-collapse.// -->
+            </div> <!-- container-fluid.// -->
+           </nav>
 
-                                <li><a href="">About</a></li>
-                                <li><a href="">Pricing</a></li>
-                                <li><a href="">Pages
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a></li>
-                                <li><a href="">Blog
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a></li>
-                                <li><a href="">Contact</a></li>
-                            </ul>
-                            <div class="main-buttons">
-                                <a href="" class="btn-hot">
-                                    <i class="fab fa-hotjar"></i>
-                                    Get Started
-                                </a>
-                                <a href="" class="btn-login">
-                                    <i class="fas fa-sign-in-alt"></i>
-                                    Log In
-                                </a>
-                            </div>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    
 
 
         <div class="main-banner">
@@ -232,16 +207,16 @@
                             </a>
                         </div>
                     </div>
-                    
+
                     <div class="services-image">
                         <div data-aos="fade-left">
-                        <div class="image">
-                            <img src="img/home/service1.png" alt="">
+                            <div class="image">
+                                <img src="img/home/service1.png" alt="">
+                            </div>
                         </div>
                     </div>
-                    </div>
                 </div>
-                </div>
+            </div>
             </div>
         </section>
         <section class="services-area second">
@@ -249,10 +224,10 @@
                 <div class="row align-items-center">
                     <div class="services-image">
                         <div data-aos="fade-right">
-                        <div class="image">
-                            <img src="img/home/service2.png" alt="">
+                            <div class="image">
+                                <img src="img/home/service2.png" alt="">
+                            </div>
                         </div>
-                    </div>
                     </div>
                     <div class="services-content">
                         <div class="left-content">
@@ -417,51 +392,64 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
-                        <div class="box">
-                            <i class="far fa-comments"></i>
-                            <h3>IT Consultancy</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
-                                magna.</p>
+                        <div data-aos="fade-right">
+                            <div class="box">
+                                <i class="far fa-comments"></i>
+                                <h3>IT Consultancy</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+                                    magna.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <div class="box">
-                            <i class="fas fa-check-circle solutions"></i>
-                            <h3>IT Solutions</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
-                                magna.</p>
+                        <div data-aos="fade-right">
+                            <div class="box">
+                                <i class="fas fa-check-circle solutions"></i>
+                                <h3>IT Solutions</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+                                    magna.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <div class="box">
-                            <i class="fas fa-columns dashboard"></i>
-                            <h3>Simple Dashboard</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
-                                magna.</p>
+                        <div data-aos="fade-right">
+                            <div class="box">
+                                <i class="fas fa-columns dashboard"></i>
+                                <h3>Simple Dashboard</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+                                    magna.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div data-aos="fade-right">
+                            <div class="box">
+                                <i class="fas fa-bell ring"></i>
+                                <h3>Simple Dashboard</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+                                    magna.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <div class="box">
-                            <i class="fas fa-bell ring"></i>
-                            <h3>Simple Dashboard</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
-                                magna.</p>
+                        <div data-aos="fade-right">
+                            <div class="box">
+                                <i class="fas fa-info-circle info"></i>
+                                <h3>Simple Dashboard</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+                                    magna.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <div class="box">
-                            <i class="fas fa-info-circle info"></i>
-                            <h3>Simple Dashboard</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
-                                magna.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="box">
-                            <i class="fas fa-cog cog"></i>
-                            <h3>Simple Dashboard</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
-                                magna.</p>
+                        <div data-aos="fade-right">
+                            <div class="box">
+                                <i class="fas fa-cog cog"></i>
+                                <h3>Simple Dashboard</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+                                    magna.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -807,11 +795,204 @@
             </div>
 
         </section>
+        <div class="input-area">
+            <h2>We always try to be the best support to you as possible</h2>
+            <form class="subscribe">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8">
+                        <input type="email" class="input-email" placeholder="hello@strax.com" name="email" required
+                            autocomplete="off">
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <button type="submit" class="btn-submit">
+                            <i class="fab fa-hotjar"></i>
+                            Subscribe Now
+                        </button>
+                    </div>
+                </div>
+
+            </form>
+            <div class="figure13">
+                <img src="img/home/Shape/13.png" alt="">
+            </div>
+            <div class="figure14">
+                <img src="img/home/Shape/14.png" alt="">
+            </div>
+            <div class="figure15">
+                <img src="img/home/Shape/15.png" alt="">
+            </div>
+            <div class="figure16">
+                <img src="img/home/Shape/16.png" alt="">
+            </div>
+            <div class="figure17">
+                <img src="img/home/Shape/17.png" alt="">
+            </div>
+        </div>
+        <section class="blog">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Latest News</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-blog">
+                            <div class="box-image">
+                                <a href="">
+                                    <img src="img/home/1 (1).jpg" alt="">
+                                </a>
+                                <div class="date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    Oct 14, 2021
+                                </div>
+                            </div>
+                            <div class="image-content">
+                                <h3>
+                                    <a href="">50 world-changing people, We lost in the 2010s</a>
+                                </h3>
+                                <div class="info">
+                                    <div class="post-by">
+                                        <img src="img/home/1 (2).jpg" alt="">
+                                        <h6>Sarah Taylor</h6>
+                                    </div>
+                                    <div class="btn-right">
+                                        <a href=""><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-blog">
+                            <div class="box-image">
+                                <a href="">
+                                    <img src="img/home/2 (1).jpg" alt="">
+                                </a>
+                                <div class="date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    Oct 14, 2021
+                                </div>
+                            </div>
+                            <div class="image-content">
+                                <h3>
+                                    <a href="">50 world-changing people, We lost in the 2010s</a>
+                                </h3>
+                                <div class="info">
+                                    <div class="post-by">
+                                        <img src="img/home/2 (2).jpg" alt="">
+                                        <h6>MichelJohn</h6>
+                                    </div>
+                                    <div class="btn-right">
+                                        <a href=""><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-blog">
+                            <div class="box-image">
+                                <a href="">
+                                    <img src="img/home/3 (1).jpg" alt="">
+                                </a>
+                                <div class="date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    Oct 14, 2021
+                                </div>
+                            </div>
+                            <div class="image-content">
+                                <h3>
+                                    <a href="">50 world-changing people, We lost in the 2010s</a>
+                                </h3>
+                                <div class="info">
+                                    <div class="post-by">
+                                        <img src="img/home/3 (2).jpg" alt="">
+                                        <h6>Lucy Eva</h6>
+                                    </div>
+                                    <div class="btn-right">
+                                        <a href=""><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                        <div class="notes">
+                            <p>Insights to help you do what you do better, faster and more profitably.
+                                <a href="">Read Full Blog</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
 
     </main>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-column">
+                        <div class="logo">
+                            <a href=""><img src="img/home/logo.png" alt=""></a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-column">
+                        <h3>Company</h3>
 
-    
+                        <ul class="services-list">
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Features</a></li>
+                            <li><a href="">Our Pricing</a></li>
+                            <li><a href="">Latest News</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-column">
+                        <h3>Support</h3>
+
+                        <ul class="services-list">
+                            <li><a href="">FAQ's</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
+                            <li><a href="">Community</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-column">
+                        <h3>Contact Info</h3>
+                        <ul class="contact-info">
+                            <li>Locattion: <a href="">6th Floor, Elegant Tower, York, USA</a></li>
+                            <li>Email: <a href=""> hello@strax.com</a></li>
+                            <li>Phone: <a href="">+0 (321) 984 754</a></li>
+                        </ul>
+                        <ul class="social">
+                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ 2021 Strax. Designed by <a href="">EnvyTheme</a></p>
+            </div>
+        </div>
+
+
+    </footer>
+
 
     <script src="https://kit.fontawesome.com/6ff3f42b45.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
@@ -820,7 +1001,7 @@
         AOS.init();
     </script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.7/countUp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.7/countUp.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/owl.carousel.min.js"></script>
 

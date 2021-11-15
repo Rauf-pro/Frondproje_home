@@ -1,3 +1,47 @@
+document.addEventListener("DOMContentLoaded", function(){
+  window.addEventListener('scroll', function() {
+      if (window.scrollY > 100) {
+        document.getElementById('navbar_top').classList.add('fixed-top');
+        
+        // add padding top to show content behind navbar
+        navbar_height = document.querySelector('.navbar').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
+      } else {
+        document.getElementById('navbar_top').classList.remove('fixed-top');
+         // remove padding top from body
+        document.body.style.paddingTop = '0';
+      } 
+  });
+}); 
+
+window.addEventListener("scroll", function () {
+  let header = document.querySelector("#header");
+  header.classList.toggle("sticky", window.scrollY>0);
+
+})
+
+// let scrollTop = document.getElementById('scrolltop')
+
+// window.onload = () => {
+// scrollTop.style.visibility = "hidden";
+// scrollTop.style.opacity = 0;
+// }
+
+// window.onscroll = () => {
+// if (window.scrollY > 200) {
+// scrollTop.style.visibility = "visible";
+// scrollTop.style.opacity = 1;
+// } else {
+// scrollTop.style.visibility = "hidden";
+// scrollTop.style.opacity = 0;
+// }
+// };
+
+
+
+
+
+
 let owl = $('.owl-carousel');
 owl.owlCarousel({
     items:2,
